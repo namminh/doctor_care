@@ -9,17 +9,17 @@ String get appId {
 String get token {
   // Allow pass a `token` as an environment variable with name `TEST_TOKEN` by using --dart-define
   return const String.fromEnvironment(
-      '007eJxTYOhp+vTX/+4P9tOrVnaVi/EyC0f5XL7Cduhy+6zP91utauMVGIxTTdMSLZNSkywszU0MzNOSUlMNjAwT08zMEw3MTUwsbxh8SGkIZGRQ/vKWhZEBAkF8LoaS1OKS+MT0/KJEBgYAyOIkcQ==',
+      '007eJxTYJg83ezMt6i9bDp7qr+anw75oiP8WMdHfeZkR9uLcTYTuk4qMBinmqYlWialJllYmpsYmKclpaYaGBkmppmZJxqYm5hYumznSm0IZGTYtFCBmZEBAkF8boaSosS8kozMjMS8dAYGAEAxIgE=',
       defaultValue:
-          '007eJxTYOhp+vTX/+4P9tOrVnaVi/EyC0f5XL7Cduhy+6zP91utauMVGIxTTdMSLZNSkywszU0MzNOSUlMNjAwT08zMEw3MTUwsbxh8SGkIZGRQ/vKWhZEBAkF8LoaS1OKS+MT0/KJEBgYAyOIkcQ==');
+          '007eJxTYJg83ezMt6i9bDp7qr+anw75oiP8WMdHfeZkR9uLcTYTuk4qMBinmqYlWialJllYmpsYmKclpaYaGBkmppmZJxqYm5hYumznSm0IZGTYtFCBmZEBAkF8boaSosS8kozMjMS8dAYGAEAxIgE=');
 }
 
 /// Your channel ID
 String get channelId {
   // Allow pass a `channelId` as an environment variable with name `TEST_CHANNEL_ID` by using --dart-define
   return const String.fromEnvironment(
-    'test_agora',
-    defaultValue: 'test_agora',
+    'tranthihang',
+    defaultValue: 'tranthihang',
   );
 }
 
